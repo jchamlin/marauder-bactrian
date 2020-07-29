@@ -1,0 +1,18 @@
+﻿Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: marauder-bactrian
+Upstream-Contact: J.C. Hamlin <jchamlin@gmail.com>
+Source: https://github.com/jchamlin/marauder-bactrian
+
+Files: *
+Copyright: J.C. Hamlin (jchamlin@gmail.com)
+License: CC-BY-SA-4.0
+Comment: Derived from works by "Endless Sky" Development Team
+and Michael Zahniser
+and Timothy Butterworth <timothy.m.butterworth@gmail.com> (all under the same license)
+
+Files:
+ icon.png
+ icon@2x.png
+ images/*
+Copyright: Michael Zahniser <mzahniser@gmail.com>
+License: CC-BY-SA-4.0

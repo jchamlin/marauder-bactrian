@@ -1,5 +1,5 @@
 # Marauder Bactrian
-A plugin for [Endless Sky][endless-sky] that adds Marauder variants of the Bactrian.
+A plugin for [Endless Sky][endless-sky] that adds Marauder shields, engines, and weapons variants of the Bactrian.
 
 ![image][image]
 
