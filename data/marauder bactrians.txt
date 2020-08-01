@@ -251,28 +251,34 @@ ship "Marauder Bactrian" "Marauder Bactrian (Weapons - AlienTech)"
 		"Quantum Keystone"
 	description "This Bactrian once belonged to an infamous pirate captain whose name has been lost to the ages. It's had so much custom work done to it that can hardly even be considered the same ship; the weapons capacity, in particular, has been massively increased. And this one is outfitted with an impressive array of fearsome alien technology."
 
-fleet "Elite Marauder Bactrian Pirate"
+fleet "Elite Marauder Fleet"
 	government "Pirate"
 	names "pirate"
 	cargo 1
 	personality
 		plunders
 	variant 1
+		"Lance" 3
 		"Marauder Bactrian"
 	variant 1
+		"Lance" 3
 		"Marauder Bactrian (Engines)"
 	variant 1
+		"Lance" 3
 		"Marauder Bactrian (Weapons)"
 	variant 1
+		"Far Osk 27" 3
 		"Marauder Bactrian (AlienTech)"
 	variant 1
+		"Far Osk 27" 3
 		"Marauder Bactrian (Engines - AlienTech)"
 	variant 1
+		"Far Osk 27" 3
 		"Marauder Bactrian (Weapons - AlienTech)"
 
-mission "Elite Marauder Bactrian"
-	name "Elite Marauder Bactrian near <system>"
-	description "A Marauder Bactrian, led by a vessel named the <npc>, has been attacking merchants near the <system> system. Destroy the whole fleet and return to <planet> for payment (<payment>)."
+mission "Bounty Hunting (Elite)"
+	name "Elite Marauder fleet near <system>"
+	description "An elite Marauder fleet, led by a vessel named the <npc>, has been attacking merchants near the <system> system. Destroy the whole fleet and return to <planet> for payment of <payment>."
 	repeat
 	job
 	to offer
@@ -282,10 +288,10 @@ mission "Elite Marauder Bactrian"
 		attributes "rim" "south" "north" "dirt belt" "core" "frontier"
 	npc kill
 		government "Bounty"
-		personality heroic unconstrained staying nemesis target
+		personality heroic unconstrained entering nemesis target plunders
 		system
 			distance 0 0
-		fleet "Elite Marauder Bactrian Pirate"
+		fleet "Elite Marauder Fleet"
 		dialog phrase "generic hunted bounty fleet eliminated dialog"
 	on visit
 		dialog phrase "generic fleet bounty hunting on visit"
