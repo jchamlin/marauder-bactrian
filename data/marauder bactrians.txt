@@ -266,15 +266,6 @@ fleet "Elite Marauder Fleet"
 	variant 1
 		"Lance" 3
 		"Marauder Bactrian (Weapons)"
-	variant 1
-		"Far Osk 27" 3
-		"Marauder Bactrian (AlienTech)"
-	variant 1
-		"Far Osk 27" 3
-		"Marauder Bactrian (Engines - AlienTech)"
-	variant 1
-		"Far Osk 27" 3
-		"Marauder Bactrian (Weapons - AlienTech)"
 
 mission "Bounty Hunting (Elite)"
 	name "Elite Marauder fleet near <system>"
@@ -282,7 +273,7 @@ mission "Bounty Hunting (Elite)"
 	repeat
 	job
 	to offer
-		"combat rating" > 6000
+		"combat rating" > 9000
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 		attributes "rim" "south" "north" "dirt belt" "core" "frontier"
@@ -296,5 +287,49 @@ mission "Bounty Hunting (Elite)"
 	on visit
 		dialog phrase "generic fleet bounty hunting on visit"
 	on complete
-		payment 1000000
+		payment 10000000
+		dialog phrase "generic fleet bounty hunting payment dialog"
+
+fleet "Elite Marauder Fleet (AlienTech)"
+	government "Pirate"
+	names "pirate"
+	cargo 1
+	personality
+		plunders
+	variant 1
+		"Far Osk 27" 3
+		"Marauder Bactrian (AlienTech)"
+	variant 1
+		"Far Osk 27" 3
+		"Marauder Bactrian (Engines - AlienTech)"
+	variant 1
+		"Far Osk 27" 3
+		"Marauder Bactrian (Weapons - AlienTech)"
+
+mission "Bounty Hunting (Elite - AlienTech)"
+	name "Elite Marauder fleet near <system>"
+	description "An elite Marauder fleet armed with an impressive array of fearsome alien technology, led by a vessel named the <npc>, has been attacking merchants near the <system> system. Destroy the whole fleet and return to <planet> for payment of <payment>."
+	repeat
+	job
+	to offer
+		"combat rating" > 18000
+		has "Discovered Coalition Space: offered"
+		has "Discovered Hai Space: offered"
+		has "Discovered Korath Space: offered"
+		has "Discovered Wanderer Space: offered"
+		has "First Contact: Remnant: offered"
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "rim" "south" "north" "dirt belt" "core" "frontier"
+	npc kill
+		government "Bounty"
+		personality heroic unconstrained entering nemesis target plunders
+		system
+			distance 0 0
+		fleet "Elite Marauder Fleet (AlienTech)"
+		dialog phrase "generic hunted bounty fleet eliminated dialog"
+	on visit
+		dialog phrase "generic fleet bounty hunting on visit"
+	on complete
+		payment 20000000
 		dialog phrase "generic fleet bounty hunting payment dialog"
