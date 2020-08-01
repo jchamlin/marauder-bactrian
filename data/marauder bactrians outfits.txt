@@ -13,7 +13,7 @@ outfit "Slip Drive"
 	"jump speed" 10
 	"jump fuel" 150
 	"jump drive" 1
-	description "The slip drive combines the ability of the scram drive to jump while moving, but allows ships to travel between systems without a hyperlink connection. Like the jump drive, the workings of the slip drive are a total mystery."
+	description "The Quantum Slipstream Drive, or Slip Drive for short, combines the ability of the scram drive to jump while moving, but allows ships to travel between systems without a hyperlink connection. A slipstream is a narrowly focused, directed field that is initiated by manipulating the fabric of the space-time continuum at the quantum level. This creates a subspace tunnel, which is projected ahead of the vessel. Once a ship has entered this tunnel, the forces inside propel it at incredible speed."
 
 outfit "Proton Turret (Dual)"
 	category "Turrets"
