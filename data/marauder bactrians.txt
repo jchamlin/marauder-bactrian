@@ -17,7 +17,7 @@ ship "Marauder Bactrian"
 		"required crew" 74
 		"self destruct" 0.25
 		shields 22500
-		"weapon capacity" 384
+		"weapon capacity" 388
 		weapon
 			"blast radius" 300
 			"shield damage" 3000
@@ -160,18 +160,16 @@ ship "Marauder Bactrian" "Marauder Bactrian (AlienTech)"
 		"Outfits Expansion" 8
 		"Thunderhead Launcher" 4
 		"Thunderhead Missile" 160
-		"Bombardment Turret" 3
-		"Inhibitor Turret" 3
+		"Bombardment Turret" 4
+		"Inhibitor Turret" 2
 		"Point Defense Turret" 2
 		"Blue Sun Reactor"
 		"Large Battery Module"
-		"Small Battery Module" 2
 		"Systems Core (Large)"
 		"Thruster (Stellar Class)"
 		"Steering (Stellar Class)"
 		`"Basrem" Atomic Steering`
 		"Large Heat Shunt" 2
-		"Small Heat Shunt"
 		"Korath Repeater Rifle" 250
 		"Pug Biodefenses" 5
 		"Outfit Scanner"
@@ -187,7 +185,7 @@ ship "Marauder Bactrian" "Marauder Bactrian (AlienTech)"
 	turret -10.5 -161.5 "Point Defense Turret"
 	turret 32 -86.5 "Inhibitor Turret"
 	turret -41 -24 "Inhibitor Turret"
-	turret 0 9.5 "Inhibitor Turret"
+	turret 0 9.5 "Bombardment Turret"
 	turret -21 72 "Bombardment Turret"
 	turret 33.5 73.5 "Bombardment Turret"
 	turret 32.5 147.5 "Bombardment Turret"
@@ -198,26 +196,23 @@ ship "Marauder Bactrian" "Marauder Bactrian (Engines - AlienTech)"
 	sprite ship/mbactriane
 	thumbnail thumbnail/mbactriane
 	add attributes
-		"outfit space" 40
+		"outfit space" 41
 		"engine capacity" 40
 	outfits
 		"Outfits Expansion" 8
 		"Thunderhead Launcher" 4
 		"Thunderhead Missile" 160
-		"Bombardment Turret" 3
-		"Inhibitor Turret" 3
+		"Bombardment Turret" 4
+		"Inhibitor Turret" 2
 		"Point Defense Turret" 2
 		"Blue Sun Reactor"
 		"Large Battery Module"
-		"Small Battery Module"
-		Supercapacitor
 		"Systems Core (Large)"
 		"Thruster (Stellar Class)"
 		"Steering (Stellar Class)"
 		`"Benga" Atomic Thruster`
 		"A255 Atomic Steering"
 		"Large Heat Shunt" 2
-		"Small Heat Shunt"
 		"Korath Repeater Rifle" 250
 		"Pug Biodefenses" 5
 		"Outfit Scanner"
@@ -237,7 +232,7 @@ ship "Marauder Bactrian" "Marauder Bactrian (Engines - AlienTech)"
 	turret -10.5 -161.5 "Point Defense Turret"
 	turret 32 -86.5 "Inhibitor Turret"
 	turret -41 -24 "Inhibitor Turret"
-	turret 0 9.5 "Inhibitor Turret"
+	turret 0 9.5 "Bombardment Turret"
 	turret -21 72 "Bombardment Turret"
 	turret 33.5 73.5 "Bombardment Turret"
 	turret 32.5 147.5 "Bombardment Turret"
@@ -254,18 +249,16 @@ ship "Marauder Bactrian" "Marauder Bactrian (Weapons - AlienTech)"
 		"Outfits Expansion" 8
 		"Finisher Pod" 4
 		"Finisher Torpedo" 160
-		"Bombardment Turret" 3
-		"Inhibitor Turret" 3
+		"Bombardment Turret" 4
+		"Inhibitor Turret" 2
 		"Point Defense Turret" 2
 		"Blue Sun Reactor"
 		"Large Battery Module"
-		"Small Battery Module" 2
 		"Systems Core (Large)"
 		"Thruster (Stellar Class)"
 		"Steering (Stellar Class)"
 		`"Basrem" Atomic Steering`
 		"Large Heat Shunt" 2
-		"Small Heat Shunt"
 		"Korath Repeater Rifle" 250
 		"Pug Biodefenses" 5
 		"Outfit Scanner"
@@ -281,7 +274,7 @@ ship "Marauder Bactrian" "Marauder Bactrian (Weapons - AlienTech)"
 	turret -10.5 -161.5 "Point Defense Turret"
 	turret 32 -86.5 "Inhibitor Turret"
 	turret -41 -24 "Inhibitor Turret"
-	turret 0 9.5 "Inhibitor Turret"
+	turret 0 9.5 "Bombardment Turret"
 	turret -21 72 "Bombardment Turret"
 	turret 33.5 73.5 "Bombardment Turret"
 	turret 32.5 147.5 "Bombardment Turret"
