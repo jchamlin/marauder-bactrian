@@ -6,18 +6,13 @@ Source: https://github.com/jchamlin/marauder-bactrian
 Files: *
 Copyright: J.C. Hamlin (jchamlin@gmail.com)
 License: CC-BY-SA-4.0
-Comment: Derived from works by "Endless Sky" Development Team
+Comment: Derived from works by the "Endless Sky" Development Team
 and Michael Zahniser
-and Timothy Butterworth <timothy.m.butterworth@gmail.com> (all under the same license)
+and Timothy Butterworth (timothy.m.butterworth@gmail.com) (all under the same license)
 
 Files:
  icon.png
  icon@2x.png
- images/*
-Copyright: Michael Zahniser <mzahniser@gmail.com>
-License: CC-BY-SA-4.0
-
-Files:
  images/ship/mbactrians*
  images/ship/mbactriane*
  images/ship/mbactrianw*
@@ -26,4 +21,4 @@ Files:
  images/thumbnail/mbactrianw*
 Copyright: Becca Tommaso (tommasobecca03@gmail.com)
 License: CC-BY-SA-4.0
-Comment: Derived from works by Michael Zahniser (under the same license).
+Comment: Derived from works by Michael Zahniser (under the same license)
