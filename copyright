@@ -16,3 +16,14 @@ Files:
  images/*
 Copyright: Michael Zahniser <mzahniser@gmail.com>
 License: CC-BY-SA-4.0
+
+Files:
+ images/ship/mbactrians*
+ images/ship/mbactriane*
+ images/ship/mbactrianw*
+ images/thumbnail/mbactrians*
+ images/thumbnail/mbactriane*
+ images/thumbnail/mbactrianw*
+Copyright: Becca Tommaso (tommasobecca03@gmail.com)
+License: CC-BY-SA-4.0
+Comment: Derived from works by Michael Zahniser (under the same license).

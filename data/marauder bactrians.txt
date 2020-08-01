@@ -44,20 +44,16 @@ ship "Marauder Bactrian"
 		"Outfit Scanner"
 		"Catalytic Ramscoop"
 		Hyperdrive
-	engine -18 230 1
-	engine 18 230 1
-	gun -15 -226 "Sidewinder Missile Launcher"
-	gun 15 -226 "Sidewinder Missile Launcher"
-	gun -40 -133 "Sidewinder Missile Launcher"
-	gun -45 -128 "Sidewinder Missile Launcher"
-	turret -22 -148 "Heavy Anti-Missile Turret"
-	turret 26 -80 "Electron Turret"
-	turret -41 -20 "Electron Turret"
-	turret 32 -7 "Quad Blaster Turret"
-	turret -2 17 "Quad Blaster Turret"
-	turret 53 82 "Electron Turret"
-	turret 32 144 "Heavy Anti-Missile Turret"
-	turret -37 186 "Electron Turret"
+	engine -18 228
+	engine 18 228
+	turret 32.5 147.5
+	turret -43.5 185
+	turret -1 9.5
+	turret -21 72
+	turret 33.5 73.5
+	turret -41 -24
+	turret 32 -86.5
+	turret -10.5 -161.5
 	fighter -38 -26
 	fighter 35 36
 	fighter -47 97
@@ -101,22 +97,22 @@ ship "Marauder Bactrian" "Marauder Bactrian (Engines)"
 		"Outfit Scanner"
 		"Catalytic Ramscoop"
 		Hyperdrive
-	engine -27 230 1
-	engine -9 230 1
-	engine 9 230 1
-	engine 27 230 1
+	engine 46 225.5 0.6
+	engine -46 225.5 0.6
+	engine -18 228 0.8
+	engine 18 228 0.8
 	gun -15 -226 "Sidewinder Missile Launcher"
 	gun 15 -226 "Sidewinder Missile Launcher"
 	gun -40 -133 "Sidewinder Missile Launcher"
 	gun -45 -128 "Sidewinder Missile Launcher"
-	turret -22 -148 "Heavy Anti-Missile Turret"
-	turret 26 -80 "Electron Turret"
-	turret -41 -20 "Electron Turret"
-	turret 32 -7 "Quad Blaster Turret"
-	turret -2 17 "Quad Blaster Turret"
-	turret 53 82 "Electron Turret"
-	turret 32 144 "Heavy Anti-Missile Turret"
-	turret -37 186 "Electron Turret"
+	turret 32.5 147.5
+	turret -43.5 185
+	turret -1 9.5
+	turret -21 72
+	turret 33.5 73.5
+	turret -41 -24
+	turret 32 -86.5
+	turret -10.5 -161.5
 	description "As if the Bactrian wasn't a terrifying enough ship already, this one has been heavily modified with special attention paid to the engine capacity, enabling it to bring its guns to bear even faster."
 
 ship "Marauder Bactrian" "Marauder Bactrian (Weapons)"
@@ -148,14 +144,14 @@ ship "Marauder Bactrian" "Marauder Bactrian (Weapons)"
 	gun 15 -226 "Sidewinder Missile Launcher"
 	gun -40 -133 "Sidewinder Missile Launcher"
 	gun -45 -128 "Sidewinder Missile Launcher"
-	turret -22 -148 "Heavy Anti-Missile Turret"
-	turret 26 -80 "Plasma Turret"
-	turret -41 -20 "Plasma Turret"
-	turret 32 -7 "Proton Turret"
-	turret -2 17 "Proton Turret"
-	turret 53 82 "Plasma Turret"
-	turret 32 144 "Heavy Anti-Missile Turret"
-	turret -37 186 "Plasma Turret"
+	turret 32.5 147.5
+	turret -43.5 185
+	turret -1 9.5
+	turret -21 72
+	turret 33.5 73.5
+	turret -41 -24
+	turret 32 -86.5
+	turret -10.5 -161.5
 	description "This Bactrian once belonged to an infamous pirate captain whose name has been lost to the ages. It's had so much custom work done to it that can hardly even be considered the same ship; the weapons capacity, in particular, has been massively increased."
 
 ship "Marauder Bactrian" "Marauder Bactrian (AlienTech)"
